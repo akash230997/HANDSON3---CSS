@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(83, 83, 152);
+    margin: 0%;
+}
+.topbox{
+    width: 30%;
+    padding: 10px;
+    /* box-shadow: horizontal-offset vertical-offset blur spread color; */
+    box-shadow: 10px 10px 10px 0px #145FCC;
+    background: #eee;
+    border: 15px solid rgb(158, 18, 18);
+    border-radius: 40px;
+}
+.main{
+    height: 600px;
+    border: 10px groove rgb(56, 228, 8);
+    padding-right: 80px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.box1{
+    width:14%;
+    height: 200px;
+    background-color: #eee;
+    text-shadow: 3px -1px 3px #5A51DA;
+    box-shadow: 10px 10px 10px 0px #145FCC;
+    line-height: 1.5;
+    padding: 10px;
+    border: 5px solid #000;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    display:inline-block;
+    overflow: hidden;
+}
+
+.box2{
+    width: 14%;
+    height: 220px;
+    background-color: #eee;
+    text-shadow: 3px -1px 3px #5A51DA;
+    box-shadow: 10px 10px 10px 0px #145FCC;
+    padding: 10px;
+    font-size:medium;
+    border: 5px solid #000;
+    border-radius: 20px;
+    font-size: 0.9em;
+    overflow: hidden;
+
+}
+.box3 img {
+    /* margin-top: 20px; */
+    border: 3px solid #000;
+    border-top: none;
+}
+.box3{
+    margin-left: 100px;
+    width: 14%;
+    height: 200px;
+    background-color: #eee;
+    text-shadow: 3px -1px 3px #5A51DA;
+    box-shadow: 10px 10px 10px 0px #145FCC;
+    padding: 30px 25px 5px;
+    border: 5px solid #000;
+    border-radius: 20px;
+    float: right;
+}
+.box4{
+    margin-left: 100px;
+    width: 14%;
+    height: 200px;
+    background-color: #eee;
+    text-shadow: 3px -1px 3px #5A51DA;
+    box-shadow: 10px 10px 10px 0px #145FCC;
+    padding: 30px 25px 5px;
+    border: 5px solid #000;
+    border-radius: 20px;
+    float: right;
+    position: absolute;
+    right: 70px;
+    top: 340px;
+}
+.box4 input{
+    width: 60%;
+}
+.floatcheck{
+    width: 40%;
+    height: 610px;
+    margin-bottom: 30px;
+    background-color: #0e0773a0;
+    padding: 2px;
+}
+.fruits{
+    border: 2px solid #000;
+    padding: 10px;
+    width: 46.5%;
+    height: 250px;
+    float: left;
+    line-height: 2;
+    background: rgb(79, 235, 178);
+    background: linear-gradient(0deg, rgba(79, 235, 178, 1) 0%, rgba(241, 236, 60, 1) 48%, rgba(0, 212, 255, 1) 100%);
+}
+.vegetables{
+    margin-bottom: 10px;
+    border: 2px solid #000;
+    padding: 10px;
+    width: 47%;
+    height: 250px;
+    float: right;
+    line-height: 2;
+    background: rgb(106, 231, 185);
+    background: linear-gradient(0deg, rgba(106, 231, 185, 1) 0%, rgba(41, 153, 236, 1) 57%, rgba(241, 236, 60, 1) 84%, rgba(0, 212, 255, 1) 100%);
+}
+.otheritems{
+    clear: both;
+    border: 5px solid #000;
+    height: 220px;
+    padding: 10px;
+    background: rgb(106, 231, 185);
+    background: linear-gradient(0deg, rgba(106, 231, 185, 1) 14%, rgba(32, 134, 209, 0.5802696078431373) 71%, rgba(218, 213, 38, 1) 95%);
+}
+.discount{
+    width: 25%;
+    height: 80px;
+    border-radius: 20px;
+    border: 5px solid rgb(186, 3, 3);
+    position:fixed;
+    left: 0px;
+    top: 85%;
+    left: 35%;
+    z-index: 1;
+    background-color: greenyellow;
+    overflow: hidden;
+}
+.offer{
+    width: 60%;
+    padding: 0px 10px 0px 0px;
+    padding-top: 0px;
+    color: red;
+    float: left;
+    font-size: small;
+}
+.disc{
+    width: auto;
+    color: red;
+}
